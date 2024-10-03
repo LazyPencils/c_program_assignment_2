@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",  
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/usr/include"  // Only include the C header path
+            ],
+            "defines": [],
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",  // Update with the correct gcc.exe path
+            "cStandard": "c11",  // Using the C11 standard
+            "cppStandard": "c++17",  // Optional, irrelevant for C-only projects
+            "intelliSenseMode": "windows-gcc-x64"  // Updated IntelliSense mode for Windows GCC
+        }
+    ],
+    "version": 4
+}
